@@ -26,12 +26,62 @@ p {
     margin-bottom: 20px;
 }
 
+#about .member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about .member .pic {
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+}
+
+#about .member .pic img {
+    max-width: 100%;
+}
+
+#about .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+#about .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+#about .member .social {
+    margin-top: 15px;
+}
+
+#about .member .social a {
+    color: #b3b3b3;
+}
+
+#about .member .social a:hover {
+    color: #03C4EB;
+}
+
+#about .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
 section {
-  padding: 100px 0;
+    padding: 100px 0;
 }
+
 section h2 {
-  font-size: 50px;
+    font-size: 50px;
 }
+
+
+/*
+    Contact Section
+*/
+
 section.contact {
     text-align: center;
 }
